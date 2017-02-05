@@ -1,6 +1,7 @@
 $(function() {
 	parallaxScroll()
 	activeMenuElement()
+	activeMobileMenuElement()
 });
 
 function parallaxScroll(){
@@ -23,6 +24,15 @@ function activeMenuElement(){
 	var menuElements = $('.nav_bar li');
 
 	$('.nav_bar li').click(function(){
+		$(menuElements).removeClass('active')
+		$(this).addClass('active')
+	});
+}
+
+function activeMobileMenuElement(){
+	var menuElements = $('.mobile_menu_cnt li');
+
+	$('.mobile_menu_cnt li').click(function(){
 		$(menuElements).removeClass('active')
 		$(this).addClass('active')
 	});

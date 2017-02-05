@@ -22,6 +22,10 @@
   font-style: normal;
   font-weight: 300; }
 
+@media (max-width: 650px) {
+  .nav_bar {
+    display: none; } }
+
 .nav_bar ul {
   height: 34px;
   background-color: #210002; }
@@ -327,6 +331,30 @@ span {
   width: 60px;
   background-image: url(../img/logo_panic_transparent.png);
   background-size: auto 100%; }
+
+.mobile_menu_cnt {
+  display: none; }
+  @media (max-width: 650px) {
+    .mobile_menu_cnt {
+      display: block; } }
+  .mobile_menu_cnt li {
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px; }
+    .mobile_menu_cnt li:hover {
+      background-color: #5a1715;
+      cursor: pointer; }
+    .mobile_menu_cnt li:hover.active {
+      background-color: #a34300; }
+  .mobile_menu_cnt .active {
+    background-color: #a34300; }
+  .mobile_menu_cnt a {
+    text-decoration: none;
+    color: #ffaf00;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px; }
 
 body {
   font-family: 'PT_Sans'; }
