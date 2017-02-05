@@ -1,0 +1,346 @@
+@font-face {
+  font-family: "PT_Sans";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PT_Sans";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PT_Sans";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "PT_Sans";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
+
+.nav_bar ul {
+  height: 34px;
+  background-color: #210002; }
+
+.nav_bar li {
+  display: inline-block;
+  float: right;
+  -webkit-transition: .3s;
+  transition: .3s; }
+  .nav_bar li:nth-child(1) {
+    float: left; }
+  .nav_bar li:hover {
+    background-color: #5a1715;
+    -webkit-transition: .3s;
+    transition: .3s; }
+  .nav_bar li:hover.active {
+    background-color: #a34300; }
+
+.nav_bar .active {
+  background-color: #a34300; }
+
+.nav_bar a {
+  text-decoration: none;
+  color: #ffaf00;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 34px;
+  font-size: 14px;
+  padding: 10px; }
+
+.parallax_cnt {
+  height: 1000px; }
+
+.parallax_layer {
+  background-position: bottom center;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+  position: fixed; }
+
+#layer_0 {
+  background-image: url("../img/parallax/parallax0.png"); }
+
+#layer_1 {
+  background-image: url("../img/parallax/parallax1.png"); }
+
+#layer_2 {
+  background-image: url("../img/parallax/parallax2.png"); }
+
+#layer_3 {
+  background-image: url("../img/parallax/parallax3.png"); }
+
+#layer_4 {
+  background-image: url("../img/parallax/parallax4.png"); }
+
+#layer_5 {
+  background-image: url("../img/parallax/parallax5.png"); }
+
+#layer_6 {
+  background-image: url("../img/parallax/parallax6.png"); }
+
+#layer_7 {
+  background-image: url("../img/parallax/parallax7.png"); }
+
+#layer_8 {
+  background-image: url("../img/parallax/parallax8.png"); }
+
+.content_cnt {
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #210002;
+  color: #ffaf00;
+  position: relative;
+  z-index: 1; }
+
+main {
+  max-width: 900px;
+  margin: auto;
+  background-color: #210002;
+  padding: 30px 10px 100px; }
+
+.first_cnt {
+  margin-bottom: 60px; }
+  .first_cnt h1 {
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase; }
+  .first_cnt h3 {
+    color: #973700;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+span {
+  display: inline-block;
+  color: #210002;
+  padding: 15px 20px;
+  background: url(../img/banner_transparent_left.png) no-repeat left top/contain, url(../img/banner_transparent_right.png) no-repeat right top/contain;
+  background-color: #ffaf00;
+  font-weight: normal;
+  letter-spacing: 6px;
+  font-size: 120%;
+  text-transform: uppercase;
+  width: calc(100% - 100px); }
+
+.stores_cnt {
+  padding: 10px; }
+  .stores_cnt span {
+    letter-spacing: 1px;
+    padding: 3px 14px;
+    width: 100%;
+    font-size: 18px; }
+  .stores_cnt li {
+    display: inline-block;
+    margin: 0px 20px; }
+  .stores_cnt a {
+    display: inline-block;
+    height: 70px;
+    background-color: #ffaf00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .stores_cnt a:hover {
+      background-color: white;
+      -webkit-transition: .3s;
+      transition: .3s; }
+
+.steam {
+  width: 184px;
+  background-image: url(../img/storelink_steam.png); }
+
+.gog {
+  width: 70px;
+  background-image: url(../img/storelink_gog.png); }
+
+.ps {
+  width: 210px;
+  background-image: url(../img/storelink_psn.png); }
+
+.xbox {
+  width: 210px;
+  background-image: url(../img/storelink_xbone.png); }
+
+.video_cnt {
+  height: 350px;
+  margin: 50px 10px; }
+
+.desc_cnt {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+  padding: 0px 20px; }
+  .desc_cnt h5 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 50px; }
+  .desc_cnt p {
+    width: 320px;
+    display: inline-block;
+    line-height: 30px;
+    letter-spacing: 1px; }
+    @media (max-width: 850px) {
+      .desc_cnt p {
+        width: 100%; } }
+  .desc_cnt p:nth-child(1) {
+    margin-right: 50px; }
+
+.internal_links_cnt {
+  margin-top: 50px; }
+  .internal_links_cnt ul {
+    width: 300px;
+    display: inline-block;
+    margin: 25px; }
+    @media (max-width: 400px) {
+      .internal_links_cnt ul {
+        margin: 5px; } }
+  .internal_links_cnt li {
+    width: 100%;
+    display: inline-block; }
+    .internal_links_cnt li:hover {
+      cursor: pointer; }
+    .internal_links_cnt li:hover .merchandise_pic {
+      background-color: #ffaf00; }
+    .internal_links_cnt li:hover span {
+      background-color: #ffaf00; }
+  .internal_links_cnt span {
+    font-size: 18px;
+    background-color: #973700;
+    padding: 3px 14px;
+    width: calc(100% - 28px); }
+  .internal_links_cnt em {
+    padding-bottom: 50px; }
+
+.hlp_top {
+  height: 40px; }
+  @media (max-width: 400px) {
+    .hlp_top {
+      height: 10px; } }
+
+.merchandise_pic {
+  height: 100px;
+  background-color: #973700;
+  background-image: url(../img/merchlink_transparent.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px; }
+
+.screens_cnt {
+  margin-top: 50px; }
+  .screens_cnt li {
+    width: 390px;
+    display: inline-block;
+    margin: 25px; }
+    @media (max-width: 500px) {
+      .screens_cnt li {
+        width: 280px;
+        margin: 5px; } }
+    .screens_cnt li img {
+      width: 100%; }
+      .screens_cnt li img:hover {
+        -webkit-filter: saturate(125%);
+                filter: saturate(125%); }
+
+.quote_cnt {
+  margin: 50px 0px; }
+  .quote_cnt h2 {
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase; }
+  .quote_cnt h3 {
+    color: #973700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px; }
+
+.support_cnt {
+  margin-top: 50px;
+  background-image: url(../img/firewatch_shield_small.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  height: 70px; }
+  @media (max-width: 950px) {
+    .support_cnt {
+      background-image: none; } }
+  .support_cnt li {
+    margin: 20px 50px 0px;
+    display: inline-block; }
+    @media (max-width: 400px) {
+      .support_cnt li {
+        margin: 20px 0px 0px; } }
+    .support_cnt li span {
+      letter-spacing: 3px;
+      padding: 1px 10px;
+      font-size: 16px;
+      width: 320px;
+      background-color: #973700;
+      -webkit-transition: .3s;
+      transition: .3s; }
+      @media (max-width: 500px) {
+        .support_cnt li span {
+          width: 280px; } }
+      .support_cnt li span:hover {
+        background-color: #ffaf00;
+        -webkit-transition: .3s;
+        transition: .3s;
+        cursor: pointer; }
+
+.copyright_cnt {
+  margin-top: 70px; }
+  .copyright_cnt p {
+    margin-bottom: 5px;
+    color: #973700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+.companies_cnt {
+  margin-top: 50px; }
+  .companies_cnt li {
+    margin: 0px 30px;
+    display: inline-block;
+    height: 70px;
+    background-color: #973700;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .companies_cnt li:hover {
+      background-color: #ffaf00;
+      -webkit-transition: .3s;
+      transition: .3s;
+      cursor: pointer; }
+
+.campo {
+  width: 125px;
+  background-image: url(../img/logo_camposanto_transparent.png);
+  background-size: contain; }
+
+.panic {
+  width: 60px;
+  background-image: url(../img/logo_panic_transparent.png);
+  background-size: auto 100%; }
+
+body {
+  font-family: 'PT_Sans'; }
+
+body, html, h1, p, ul, li, h1, h2, h3, h4, h5 {
+  padding: 0px;
+  margin: 0px; }
+
+div {
+  box-sizing: border-box; }
+
+html, body {
+  height: 100px;
+  background-color: #ffaf1b; }
+
+ul {
+  list-style-type: none; }

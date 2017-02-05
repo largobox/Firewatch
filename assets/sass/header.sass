@@ -1,0 +1,32 @@
+.nav_bar
+
+	ul
+		height: 34px
+		background-color: $bg_color
+
+	li
+		display: inline-block
+		float: right
+		transition: .3s
+
+		&:nth-child(1)
+			float: left
+
+		&:hover
+			background-color: #5a1715
+			transition: .3s
+
+		&:hover.active
+			background-color: #a34300
+
+	.active
+		background-color: #a34300
+
+	a
+		text-decoration: none
+		color: $text_color
+		text-transform: uppercase
+		font-weight: bold
+		line-height: 34px
+		font-size: 14px
+		padding: 10px
